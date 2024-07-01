@@ -1,9 +1,9 @@
 configurações do PC:
-    -   Intel Core I5 8400
-    -   32GB Ram DDR4 2400mhz
-    -   MB Z370M Aorus
-    -   SSD 240GB Nvme
-    -   SO -> Windows 10 Pro
+-   Intel Core I5 8400
+-   32GB Ram DDR4 2400mhz
+-   MB Z370M Aorus
+-   SSD 240GB Nvme
+-   SO -> Windows 10 Pro
   
 versão do weka: 3.8.6
 
