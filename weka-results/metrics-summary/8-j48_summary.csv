@@ -1,0 +1,10 @@
+Métrica,Valor,Porcentagem sobre o total
+Correctly Classified Instances                       ,4861,95.1272 %
+Incorrectly Classified Instances       ,249,4.8728 %
+Kappa statistic                          ,0,
+Mean absolute error                      ,0.0927,
+Root mean squared error                  ,0.2153,
+Relative absolute error                 ,99.8094 %,
+Root relative squared error            ,100 %,
+Total Number of Instances             ,5110,
+Time taken (in seconds),0.04,
