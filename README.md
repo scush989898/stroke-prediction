@@ -8,9 +8,9 @@ O objetivo deste repositório é servir como um local centralizado para armazena
 
 ## Integrantes do grupo
 
-[Marco](https://github.com/scush989898) <br>
-[Vitor](https://github.com/VitorManoelBuss) <br>
-[João](https://github.com/kinkbaldhead) <br>
+[Marco Antonio](https://github.com/scush989898) <br>
+[Vitor Buss](https://github.com/VitorManoelBuss) <br>
+[João Pedro](https://github.com/kinkbaldhead) <br>
 
 Tipos de Algorítmos de classificação utilizados:
 
