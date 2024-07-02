@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -55,6 +56,9 @@ metrics = [
     for metric in summaries[algorithm_names[0]]["Métrica"].tolist()
 ]
 
+if not os.path.exists("graphs"):
+    os.makedirs("graphs")
+
 for metric in metrics:
     plt.figure(figsize=(14, 8))
     values = []
@@ -75,12 +79,16 @@ for metric in metrics:
     plt.ylabel("Value")
     plt.xlabel("Algorithm")
     plt.xticks(rotation=45)
+    plt.savefig(f"graphs/{metric}.jpeg", format="jpeg", dpi=100)
     plt.show()
 
 for algorithm, confusion_matrix_df in confusion_matrices.items():
     plt.figure(figsize=(10, 6))
     sns.heatmap(confusion_matrix_df, annot=True, fmt="d", cmap="Blues")
-    plt.title(f"Consusion Matrix - {algorithm}")
+    plt.title(f"Confusion Matrix - {algorithm}")
     plt.ylabel("Real")
     plt.xlabel("Predicted Value")
+    plt.savefig(
+        f"graphs/confusion_matrix_{algorithm}.jpeg", format="jpeg", dpi=100
+    )
     plt.show()
