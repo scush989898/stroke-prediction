@@ -6,6 +6,11 @@
 ## 💻 Projeto
 O objetivo deste repositório é servir como um local centralizado para armazenar scripts relacionados ao tratamento de dados e à geração de gráficos e resultados. Ele está focado na análise sistemática de dados de pacientes com Acidente Vascular Cerebral (AVC), visando realizar previsões precisas através de técnicas de classificação. Os resultados da pasta weka-results foram gerados através do programa Weka, na versão 3.8.6.
 
+## Integrantes do grupo
+
+[Marco](https://github.com/scush989898) <br>
+[Vitor](https://github.com/VitorManoelBuss) <br>
+[João](https://github.com/kinkbaldhead) <br>
 
 Tipos de Algorítmos de classificação utilizados:
 
