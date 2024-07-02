@@ -1,26 +1,27 @@
-configurações do PC:
--   Intel Core I5 8400
--   32GB Ram DDR4 2400mhz
--   MB Z370M Aorus
--   SSD 240GB Nvme
--   SO -> Windows 10 Pro
-  
-versão do weka: 3.8.6
+<h1 align="center">
+  Predição de AVC através de aprendizado de máquina
+</h1>
+
+
+## 💻 Projeto
+O objetivo deste repositório é servir como um local centralizado para armazenar scripts relacionados ao tratamento de dados e à geração de gráficos e resultados. Ele está focado na análise sistemática de dados de pacientes com Acidente Vascular Cerebral (AVC), visando realizar previsões precisas através de técnicas de classificação. Os resultados da pasta weka-results foram gerados através do programa Weka, na versão 3.8.6.
+
 
 Tipos de Algorítmos de classificação utilizados:
-- rules
-- trees
+
+- Rules
+- Trees
 
 Algorítmos utilizados:
 
-- rules
+- Rules
     - DecisionTable
     - JRip
     - OneR
     - PART
     - ZeroR
   
-- trees
+- Trees
     - DecisionStump
     - HoeffdingTree
     - J48
@@ -29,7 +30,41 @@ Algorítmos utilizados:
     - Random Tree
     - REPTree
 
+## ✨ Tecnologias
+
+- [X] Python
+- [X] Venv
+- [X] Weka
 
 
+# Instruções:
 
+### Crie o ambiente virtual
+```
+python -m venv venv
+```
+### Ative o venv
+```bash
+# linux: 
+
+source venv/bin/activate
+
+# windows: 
+
+.\venv\Scripts\activate
+
+```
+
+### Instale as dependências 
+```
+pip install -r requirements.txt
+```
+
+### Executando os scripts
+```
+python data_cleaner.py
+```
+```
+python graph_generator.py
+```
 
